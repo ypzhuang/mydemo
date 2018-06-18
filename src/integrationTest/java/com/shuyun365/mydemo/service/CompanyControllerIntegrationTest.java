@@ -47,8 +47,8 @@ public class CompanyControllerIntegrationTest {
     }
 
     private void createTestCompany(String companyName) {
-        Company alex = new Company(companyName);
-        repository.save(alex);
+        Company company = new Company(companyName);
+        repository.save(company);
         repository.flush();
     }
 }

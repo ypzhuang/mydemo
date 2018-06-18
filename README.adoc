@@ -1,0 +1,25 @@
+# Demo Service
+
+
+
+## Prerequisite
+* Oracle JDK 1.8+
+* Gradle 3.0+
+
+# run
+----
+./gradlew bootRun
+----
+
+# test
+----
+./gradlew test
+----
+
+# integration test
+----
+./gradlew integrationTest
+----
+
+## API Document
+http://127.0.0.1:8080/swagger-ui.html
