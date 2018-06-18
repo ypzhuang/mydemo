@@ -1,7 +1,6 @@
 package com.shuyun365.mydemo;
 
 import com.shuyun365.mydemo.domain.Company;
-import com.shuyun365.mydemo.repo.CompanyRepository;
 import com.shuyun365.mydemo.service.CompanyService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
